@@ -113,96 +113,121 @@ Basic-Mode:
     - '%player% was pushed into a cactus by a group of %killer%'
 Natural-Cause:
   Bed:
-  - '%player% tried sleeping in the %world_environment% :kappa:'
+  - '%player%, хотів подрімати у %world_environment%? Мій жар тебе розбудив.'
+  - 'Навіть я не сплю в %world_environment%, %player%.'
   Respawn-Anchor:
-  - '%player% tried using the respawn anchor in the %world_environment%!'
+  - '%player% подумав, що якір відродження витримає %world_environment%. Не вийшло.'
+  - 'Я дивлюся, %player% забавляється з якірцем. Бах – і немає.'
   Contact:
-  - '%player% was pricked to death'
+  - '%player% обійняв кактус і тепер колючий ангел.'
+  - 'Мої колючки скучили за тобою, %player%.'
   Melee:
-  - '%player% killed themselves'
+  - '%player% сам на себе руку підняв. Отакої.'
   Projectile-Unknown:
-  - '%player% shot themselves'
+  - '%player% не знає, чим саме в себе стрельнув, та й я теж.'
   Projectile-Arrow:
-  - '%player% shot themselves with %weapon%'
+  - '%player% запустив стрілу у себе. Сам собі Робін Гуд.'
   Projectile-Egg:
-  - '%player% egged themselves'
+  - '%player% закидав себе яйцями. Смачного!'
   Projectile-EnderPearl:
-  - '%player% shot themselves'
+  - '%player% кинув перлину... в себе. Телепортація болюча.'
   Projectile-Fireball:
-  - '%player% fireballed themselves'
+  - '%player% вирішив, що вогняна куля у власне лице — хороша ідея.'
   Projectile-FishHook:
-  - '%player% got a fishhook caught in their head'
+  - '%player% зачепив себе гачком. Риба аплодує.'
   Projectile-Snowball:
-  - '%player% shot themselves with snowball'
+  - '%player% влучив у себе сніжкою і змерз.'
   Projectile-Trident:
-  - '%player% shot themselves with trident'
+  - '%player% поцілив себе тризубом. Боги морів в шоці.'
   Suffocation:
-  - '%player% was squished to death'
-  - PERMISSION[deathmessages.premium]%player% was mashed up pretty good.
+  - '%player% задихнувся під моїм пильним оком.'
+  - PERMISSION[deathmessages.premium]%player% відчув божественний тиск.
+  - '%player% вирішив, що повітря зайве.'
   Fall:
-  - '%player% fell from a high place'
+  - 'Я, Господь, спостерігав, як %player% перевіряв наявність крил.'
+  - 'Гравітація - мій суворий закон, %player%. Ти його відчув.'
+  - '%player% поспішав до небес, але зустрів землю раніше.'
+  - 'Навіть я не спіймав %player%, коли він летів. Шкода.'
   Climbable:
-  - '%player% tried climbing to greater heights and fell off %climbable%'
+  - '%player% хотів дістатися вище і впав з %climbable%.'
   Fire:
-  - '%player% thought standing in fire was a good idea'
+  - '%player%, я ж попереджав: не грайся з полум''ям. Тепер ти хрустиш.'
+  - 'Господь сміється: %player% став смачним шашликом.'
+  - 'Бачу, %player% захотів стати факелом.'
+  - 'Я з небес бачу, як %player% обіймає вогонь. Ну що, зігрівся?'
   Fire-Tick:
-  - '%player% was burnt to a crisp'
+  - '%player% перетворився на золотисту скоринку. Амінь.'
+  - 'Я дав полум''ю секунду, і ось результат — %player% горить.'
   Melting:
-  - '%player% melted away'
+  - '%player% розтанув, ніби сніг під моїм сонцем.'
   Lava:
-  - '%player% thought lava was a hot tub'
+  - 'Моя лавова ванна прийняла %player% з розпростертими обіймами.'
+  - 'Обережно, %player%, це не басейн, а мій котел.'
+  - '%player% вирішив поплавати у лаві й зварився.'
+  - '%player% перевірив температуру лави й остаточно зварився.'
   Drowning:
-  - '%player% thought they could swim forever чи ні? 11'
-  - '%player% довбойоб ахахаха'
+  - '%player% забув вдихнути. Навіть я не врятую без повітря.'
+  - 'Вода прийняла %player% у своє володіння. Щасливого булькання.'
+  - 'Господь спостерігає: %player% пірнув занадто глибоко і залишився там.'
+  - 'Намок і забув випливти, %player%. Я ж робив воду прозорою.'
   Explosion:
-  - '%player% blew up'
+  - '%player% вибухнув так гучно, що навіть небеса здригнулися.'
+  - 'Вибухи — не іграшки, %player%, але видовище було епічним.'
+  - '%player% грався з вибухівкою – ось і феєрверк.'
   TNT:
-  - '%player% was playing with tnt'
+  - '%player% грався з TNT і програв.'
+  - 'Господь позіхнув, коли %player% підірвався на динаміті.'
   Firework:
-  - '%player% thought playing with fireworks was a good idea'
+  - '%player% захотів бути феєрверком і спалахнув.'
+  - 'Я спостерігав, як %player% сяяв яскравіше за зорю.'
   End-Crystal:
-  - '%player% blew up! They were playing around with an end-crystal!'
+  - '%player% надто близько підійшов до кристала і полетів у небеса.'
+  - 'Я не планував такого вибуху, %player%, але вигляд був чудовий.'
   Void:
-  - '%player% fell into the void'
+  - '%player% зник у безодні. Навіть я його там не знайду.'
+  - 'Стрибок у порожнечу? Сміливе рішення, %player%.'
+  - 'Господь гукає у пустоту: %player%, ти де?'
   Lightning:
-  - '%player% was struck by /lighting'
+  - 'Я трохи промахнувся блискавкою, %player%, але ти її спіймав.'
+  - '%player% відчув мою електричну силу.'
+  - 'Блискавка з небес, спеціально для %player%.'
   Suicide:
-  - '%player% killed themselves'
+  - '%player% сам вирішив покинути цей світ. Навіть я здивований.'
   Starvation:
-  - '%player% ran out of food, and died'
+  - '%player% забув повечеряти й помер від голоду.'
   Poison:
-  - '%player% was playing with poison'
+  - '%player% догрався з отрутою. Не найкраща ідея.'
   Magic:
-  - '%player% was playing with magic'
+  - '%player% балувався чарами й перегнув палицю.'
   Wither:
-  - '%player% withered away'
+  - '%player% в''янув, наче осінній листок.'
   Falling-Block:
-  - '%player% was squished by a %block%'
+  - '%player% не поділив місце з блоком і програв.'
   Dragon-Breath:
-  - '%player% died to a lingering dragons breath'
+  - '%player% вдихнув подих дракона й одразу пожалкував.'
   Custom:
-  - '%player% died in a unique way'
+  - '%player% помер настільки дивно, що навіть я не збагнув як.'
   Fly-Into-Wall:
-  - '%player% flew into a wall'
+  - '%player% розігнався і врізався в стіну. Браво.'
   Hot-Floor:
-  - '%player% was playing on a magma block too long'
+  - '%player% занадто довго танцював на магмі.'
   Cramming:
-  - '%player% was killed in a heavily populated space'
+  - '%player% не вліз у тісняву й задихнувся.'
   Dryout:
-  - '%player% belonged in the water. Not land'
+  - '%player% мав залишатися у воді, а не сохнути на сонці.'
   Freeze:
-  - '%player% did not put their snow suit on before they went to play.'
+  - '%player% забув теплу куртку й замерз.'
   Thorns:
-  - '%player% tried playing armor with thorns'
+  - '%player% подряпався об чужу броню з шипами.'
   Kill:
-  - '%player% was killed'
+  - '%player% був убитий. Вічна пам''ять.'
   World-Border:
-  - '%player% left the confines of this world'
+  - '%player% вийшов за межі мого світу й зник.'
   # Hook related deaths
   CombatLogX-Kill:
-  - '%player% wants to escape reality, but was still sent to another dimension -.-'
+  - '%player% намагався втекти, але я відправив його в інший вимір.'
   Unknown:
-  - '%player% died'
+  - '%player% помер з невідомих причин. Навіть я розгублений.'
 Mobs:
   elderguardian:
     Solo:
